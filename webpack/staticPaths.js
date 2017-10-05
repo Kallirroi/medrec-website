@@ -1,6 +1,7 @@
 module.exports = [
 	'/',
-	'/waves',
-	'/forests',
-	'/404.html'
+	'/landing',
+	'/team',
+	'/404.html',
+	'/signup'
 ];

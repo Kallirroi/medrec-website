@@ -2,33 +2,19 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const NavBar = function() {
-	const toggleSlide = function() {
-		const elem = document.getElementsByClassName('nav-menu')[0];
-		if (elem.className === 'nav-menu') {
-			elem.className = 'nav-menu open';
-		} else {
-			elem.className = 'nav-menu';
-		}
+
+	const toggleStyle = function(e) {
+		var elem = e.target;
+		// elem.className = 'navbar navbar-active';
 	};
 
 	return (
-		<nav className="navbar-page">
-			<div className={'navbar funky'}>
-				<Link to={'/'}>React Static Generator 17</Link>
-				<a role={'button'} tabIndex={0} className={'right'} onClick={toggleSlide}>Menu</a>
-
-				<div role={'presentation'} className={'nav-menu'} onClick={toggleSlide}>
-					<div className={'content'}>
-						<ul>
-							<li>Item 1</li>
-							<li>Item 2</li>
-							<li>Item 3</li>
-							<li>Item 4</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</nav>
+		<div className="navbar">
+			<Link to={'/'} onClick={toggleStyle} >About</Link>
+			<Link to={'/team'} onClick={toggleStyle}>Team</Link>
+			<Link to={'/signup'} onClick={toggleStyle} >Signup</Link>
+			<a href={'http://dci.mit.edu/assets/papers/eckblaw.pdf'} target="_blank">Read the publication</a>
+		</div>
 	);
 };
 
