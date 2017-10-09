@@ -15,7 +15,7 @@ const App = function() {
 	return (
 		<div>
 			<Helmet>
-				<title>MEDREC</title>
+				<title>MedRec</title>
 				<meta name="description" content="Medrec website" />
 			</Helmet>
 			<div className="logo"> 
