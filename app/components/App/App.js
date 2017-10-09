@@ -30,12 +30,12 @@ const App = function() {
 				<Route path="/*" component={NoMatch} />
 			</Switch>
 			<div className="social"> 
-				<a href={'https://twitter.com/medialab'} target="_blank"> 
-					<img width={'30px'} src={'/images/twitter.png'} alt={'twitter'} />
-				</a>
 				<a href={'https://www.media.mit.edu/'} target="_blank"> 
-					<img width={'50px'} src={'/images/medialab.png'} alt={'medialab'} />
+					<img width={'70px'} src={'/images/medialab.png'} alt={'medialab'} />
 				</a>
+				<a href={'https://www.media.mit.edu/groups/viral-communications/overview/'} target="_blank"> 
+					Viral Communications group MIT Media Lab
+				</a>			
 			</div>
 		</div>
 	);
