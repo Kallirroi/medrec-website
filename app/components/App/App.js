@@ -31,10 +31,10 @@ const App = function() {
 			</Switch>
 			<div className="social"> 
 				<a href={'https://twitter.com/medialab'} target="_blank"> 
-					<img width={'20px'} src={'/images/twitter.png'} alt={'twitter'} />
+					<img width={'30px'} src={'/images/twitter.png'} alt={'twitter'} />
 				</a>
 				<a href={'https://www.media.mit.edu/'} target="_blank"> 
-					<img width={'30px'} src={'/images/medialab.png'} alt={'medialab'} />
+					<img width={'50px'} src={'/images/medialab.png'} alt={'medialab'} />
 				</a>
 			</div>
 		</div>

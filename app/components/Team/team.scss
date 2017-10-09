@@ -21,15 +21,17 @@
 
 
 .team-info {
-	width: 200px;
 	position: relative;
 	top: 1vh;
 	left: 0vw;
 	font-size: 11px;
+	line-height: 1.5;
 	// margin: 0 3vw;
 }
 
 .team-info-contact {
-	font-weight: 500;
-	cursor: pointer;
+	// font-weight: 500;
+	line-height: 1.5;
+	font-size: 10px;
+	// cursor: pointer;
 }
