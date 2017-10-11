@@ -98,6 +98,7 @@ a.active {
 	top: 40vh;
 	animation: pulse 20s alternate infinite;
 }
+
 @keyframes pulse {
   0%   { transform: scale(0.8); }
   100% { transform: scale(1.2); }
@@ -122,10 +123,13 @@ a.active {
 
 .social {
 	position: fixed;
-	bottom: 3vh;
+	bottom: 2vh;
 	left: 2vw;
 }
 
+.social > a {
+	margin-right: 0.1vw;
+}
 
 img.diagram {
 	position: relative;

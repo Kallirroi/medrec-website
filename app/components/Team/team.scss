@@ -15,14 +15,16 @@
 	width: 150px;
 	height: 150px;
 	// border: 1px solid;
-	margin: 0 3vw;
+	margin: 0vh 3vw;
 	align-self: flex-start;
+	filter: grayscale(100%);
+	margin-bottom: 10vh;
 }
 
 
 .team-info {
 	position: relative;
-	top: 1vh;
+	top: 0vh;
 	left: 0vw;
 	font-size: 11px;
 	line-height: 1.5;

@@ -10,8 +10,15 @@ const Landing = function() {
 				</div>	
 				<div className="sidebar"> 
 					<b>Resources</b>
-					<p><a href="http://www3.weforum.org/docs/WEF_Realizing_Potential_Blockchain.pdf" target="_blank">Realizing the Potential of Blockchain</a><br/>
-					<a href="http://dci.mit.edu/" target="_blank">MIT Digital Currency Initiative</a> </p>
+					<p>
+						<a href="http://dci.mit.edu/" target="_blank">MIT Digital Currency Initiative</a> 
+						<br/>
+						<a href="https://medium.com/blockchannel/a-beginners-guide-to-ethereum-5e7e132a854d" target="_blank">A beginner's guide to ethereum</a> 
+						<br/>
+						<a href="https://github.com/ethereum/wiki/wiki/White-Paper" target="_blank">The Ethereum white paper</a> 
+						<br/>
+						<a href="https://hbr.org/2017/03/the-blockchain-will-do-to-banks-and-law-firms-what-the-internet-did-to-mediar" target="_blank">Harvard Business Review on Blockchain</a> 
+					</p>
 				</div>
 				<h3> What is Medrec?</h3>
 				<p>Electronic Health Records (EHRs) were never designed to manage the complexities of multi-institutional, lifetime medical records. As patients move between providers, their data becomes scattered across different organisations, losing easy access to past records. As providers — not patients — are the primary stewards of EHRs, patients face significant hurdles in viewing their reports and correcting erroneous data. This also forms an interoperability challenge between different provider and hospital systems, where IT providers can charge exorbitant prices for data exchange interfaces, as “information blocking” is economically incentivised. </p>

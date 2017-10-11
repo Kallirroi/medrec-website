@@ -31,11 +31,15 @@ const App = function() {
 			</Switch>
 			<div className="social"> 
 				<a href={'https://www.media.mit.edu/'} target="_blank"> 
-					<img width={'70px'} src={'/images/medialab.png'} alt={'medialab'} />
-				</a>
+					<img height={'30px'} src={'/images/medialab.png'} alt={'medialab'} />
+				</a>				
 				<a href={'https://www.media.mit.edu/groups/viral-communications/overview/'} target="_blank"> 
-					Viral Communications group MIT Media Lab
-				</a>			
+					<img height={'30px'} src={'/images/viral_logo.png'} alt={'viral communications'} />
+				</a>				
+				<a href={'https://www.rwjf.org/'} target="_blank"> 
+					<img height={'35px'} src={'/images/rwjf.png'} alt={'RWJF'} />
+				</a>
+		
 			</div>
 		</div>
 	);
