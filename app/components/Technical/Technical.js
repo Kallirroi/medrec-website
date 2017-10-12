@@ -6,6 +6,10 @@ const Technical = function() {
 		<div className="main"> 
 			
       <a className="PDF" href="/images/medrec_technical_documentation.pdf"  download="medrec_technical_documentation" >Download PDF</a>
+      
+      <br/>
+      <br/>
+      <br/>
       <h3> Overview</h3>
       <p> This section of the site lists the proposed architecture of MedRec 2.0 in detail, along with a background that covers the original implementation, and an overview of technology underpinning the decisions we’ve made. This is intended to be a working document, and will grow as the new codebase develops. MedRec 2.0 is currently under development, but we hope to have an open-source version up and running very soon (to be notified of this, sign up here using the Signup tab above). 
       </p>

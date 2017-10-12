@@ -20,7 +20,7 @@ const Landing = function() {
 					</p>
 				</div>
 				<br/>
-
+					
 				<h3> What is Medrec ?</h3>
 
 				<img width={'60%'} src={'/images/story.png'} alt={'story'} />
