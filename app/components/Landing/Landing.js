@@ -17,7 +17,7 @@ const Landing = function() {
 						<br/>
 						<a href="https://github.com/ethereum/wiki/wiki/White-Paper" target="_blank">The Ethereum white paper</a> 
 						<br/>
-						<a href="https://hbr.org/2017/03/the-blockchain-will-do-to-banks-and-law-firms-what-the-internet-did-to-mediar" target="_blank">Harvard Business Review on Blockchain</a> 
+						<a href="https://hbr.org/2017/03/the-blockchain-will-do-to-banks-and-law-firms-what-the-internet-did-to-media" target="_blank">Harvard Business Review on Blockchain</a> 
 					</p>
 				</div>
 				<h3> What is Medrec?</h3>
