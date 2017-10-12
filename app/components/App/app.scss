@@ -67,7 +67,8 @@ a.active {
 	font-size: 16px;
 	margin: 0 auto;
 	height: 75vh;
-	overflow-y: scroll;
+	overflow-y: auto;
+	-ms-overflow-style: none;
 }
 
 ::-webkit-scrollbar {
