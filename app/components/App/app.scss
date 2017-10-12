@@ -75,7 +75,12 @@ a.active {
 }
 
 .main > p {
-	margin-bottom: 2vh;
+	margin-bottom: 6vh;
+	// margin-top: 20vh;
+}
+
+.main > p:last-child {
+	margin-bottom: 20vh;
 	// margin-top: 20vh;
 }
 
