@@ -19,7 +19,16 @@ const Landing = function() {
 						<a href={'http://dci.mit.edu/assets/papers/eckblaw.pdf'} target="_blank">Medrec 2016 White Paper</a>
 					</p>
 				</div>
+				<br/>
+
 				<h3> What is Medrec ?</h3>
+
+				<img width={'60%'} src={'/images/story.png'} alt={'story'} />
+
+				<br/>
+				<br/>
+
+
 				<p> Electronic Health Records (EHRs) were never designed to manage the complexities of multi-institutional, lifetime medical records. As patients move between providers, their data becomes scattered across different organizations, losing easy access to past records. As providers — not patients — are the primary stewards of EHRs, patients face significant hurdles in viewing their reports, correcting erroneous data, and distributing the information. The situation is much like consumer finance, where an individual may have several bank accounts, credit cards, loans, and assets but no unified way to access and control them. In the case of finance, however,  there is an infrastructure in place that greases the wheels: currency.  With medical information we are still in the age of barter. </p>
 				<p>MedRec is the combination of a social need with a technological enabler: a system that prioritizes patient agency, giving a transparent and accessible view of medical history. To continue the banking analogy, financial systems may contain multiple different depositories of currency, perhaps one for each provider network.  The problem is that health records are not fungible; each is an individual’s unique imprint.  There is no like-for-like trade possible as we can do with money.  Whereas competition and multiplicity often results in lower consumer costs, here it risks a mass of incompatible or inaccessible barriers to interchange and control.  We propose an alternative:  a distributed access and validation system using the blockchain to replace centralized intermediaries.</p>
 
