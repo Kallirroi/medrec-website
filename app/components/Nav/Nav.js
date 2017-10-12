@@ -13,7 +13,7 @@ const NavBar = function() {
 			<Link to={'/'} onClick={toggleStyle} >About</Link>
 			<Link to={'/team'} onClick={toggleStyle}>Team</Link>
 			<Link to={'/signup'} onClick={toggleStyle} >Signup</Link>
-			<a href={'http://dci.mit.edu/assets/papers/eckblaw.pdf'} target="_blank">Read the publication</a>
+			<Link to={'/technical'} onClick={toggleStyle} >Technical Documentation</Link>
 		</div>
 	);
 };

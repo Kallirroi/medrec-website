@@ -1,7 +1,7 @@
 .team-wrapper {
 	position: relative;
 	top: 20vh;
-	width: 50vw;
+	max-width: 35vw;
 	margin: 0 auto;
 	// border: 1px solid;
 	height: 50vh;
@@ -15,7 +15,7 @@
 	width: 150px;
 	height: 150px;
 	// border: 1px solid;
-	margin: 0vh 3vw;
+	margin: 0vh 2vw;
 	align-self: flex-start;
 	filter: grayscale(100%);
 	margin-bottom: 10vh;

@@ -6,6 +6,7 @@ import Nav from 'components/Nav/Nav';
 import Landing from 'components/Landing/Landing';
 import Team from 'components/Team/Team';
 import Signup from 'components/SignUp/Signup';
+import Technical from 'components/Technical/Technical';
 import NoMatch from 'components/NoMatch/NoMatch';
 
 require('./app.scss');
@@ -26,6 +27,7 @@ const App = function() {
 				<Route exact path="/" component={Landing} />
 				<Route path="/team" component={Team} />
 				<Route path="/signup" component={Signup} />
+				<Route path="/technical" component={Technical} />
 				<Route path="/404.html" component={NoMatch} />
 				<Route path="/*" component={NoMatch} />
 			</Switch>
