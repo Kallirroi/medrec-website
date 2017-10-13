@@ -20,17 +20,19 @@ const Landing = function() {
 					</p>
 				</div>
 				<br/>
-					
+
 				<h3> What is Medrec ?</h3>
 
-				<img width={'60%'} src={'/images/story.png'} alt={'story'} />
 
 				<br/>
 				<br/>
 
 
 				<p> Electronic Health Records (EHRs) were never designed to manage the complexities of multi-institutional, lifetime medical records. As patients move between providers, their data becomes scattered across different organizations, losing easy access to past records. As providers — not patients — are the primary stewards of EHRs, patients face significant hurdles in viewing their reports, correcting erroneous data, and distributing the information. The situation is much like consumer finance, where an individual may have several bank accounts, credit cards, loans, and assets but no unified way to access and control them. In the case of finance, however,  there is an infrastructure in place that greases the wheels: currency.  With medical information we are still in the age of barter. </p>
+				<img width={'60%'} src={'/images/story.png'} alt={'story'} />
+				
 				<p>MedRec is the combination of a social need with a technological enabler: a system that prioritizes patient agency, giving a transparent and accessible view of medical history. To continue the banking analogy, financial systems may contain multiple different depositories of currency, perhaps one for each provider network.  The problem is that health records are not fungible; each is an individual’s unique imprint.  There is no like-for-like trade possible as we can do with money.  Whereas competition and multiplicity often results in lower consumer costs, here it risks a mass of incompatible or inaccessible barriers to interchange and control.  We propose an alternative:  a distributed access and validation system using the blockchain to replace centralized intermediaries.</p>
+				
 
 				<h3> What are the technologies we use? </h3>
 				<p> Developed as a means of recording financial transactions for digital currencies, the blockchain may be extended more generally as a platform for distributed computation. the blockchain uses public key cryptography to create a tamper-proof chain of content, supported not by a central server but a decentralised network of participating ‘nodes’. Conventionally, each individual node works to solve a series of hashing exercises, which contribute to the formation of the chain — a process known as ‘mining’.   However, there are variations that are more efficient, as will be described later.</p>
