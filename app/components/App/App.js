@@ -41,6 +41,9 @@ const App = function() {
 				<a href={'https://www.rwjf.org/'} target="_blank"> 
 					<img height={'35px'} src={'/images/rwjf.png'} alt={'RWJF'} />
 				</a>
+				<a href={'http://dci.mit.edu/'} target="_blank"> 
+					<img height={'30px'} src={'/images/dcilogo.png'} alt={'DCI'} />
+				</a>
 		
 			</div>
 		</div>
