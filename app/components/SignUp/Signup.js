@@ -9,7 +9,7 @@ const Signup = function() {
 
 	<div>
         {/* Begin MailChimp Signup Form */}
-        <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css" />
+        <link href="https://us16.admin.mailchimp.com/release/1.1.135a5f5fbe3f348c1668850e802e9cdafdea0e913/css/less/template-editor.css" rel="stylesheet" type="text/css" />
         <style type="text/css" dangerouslySetInnerHTML={{__html: "#mc_embed_signup{background:#fff; font:14px Helvetica Neue,sans-serif;  width:350px;} " }} />
         <div id="mc_embed_signup">
           <form action="//mit.us16.list-manage.com/subscribe/post?u=a85f4a07fc37513e4c4ff668b&id=a9fb20c374" 
