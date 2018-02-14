@@ -52,7 +52,7 @@ const Landing = function() {
 
 
 				<h3> Who supports this project? </h3>
-				<p> Funding from this project comes from the Robert W Johnson foundation and the MIT Media Lab. </p>
+				<p> This project is supported by a grant from the Robert Wood Johnson Foundation, with additional support from the MIT Media Lab.</p>
 			</div>
 		</div>
 	);
