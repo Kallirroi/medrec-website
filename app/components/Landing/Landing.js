@@ -44,11 +44,10 @@ const Landing = function() {
 
 				<h3> Is MedRec economically viable?  </h3>
 				<p>The first  implementation of Medrec used the value of data to incentivise ‘mining’ of the Medrec blockchain, which is required for the system to scale and the chain to advance. The mining process — a computationally intensive hashing exercise — would be performed by medical researchers, who in turn would gain access to aggregate and anonymised data that might be used to further medical research.  </p>
-				<p> In the current design, a proposal is to encode this exchange as a ‘bounty query’: any transaction that updates a patient provider record attaches a particular query (e.g. a request to return the average iron levels in blood tests done by the provider, across all patients in the previous week). When the block is mined, the block’s miner is appended as the author of nether query, allowing them to collect the data as part go the transaction. This enabling of population-level insights into healthcare outcomes, thus providing a positive benefit to medical research. </p>
-				<p> This proposal, however, raises concerns with data security and patient privacy. An alternate is that the providers themselves maintain the blockchain.  The argument for this is that a closed group can form a consensus in an efficient manner.  The overhead for doing so is minimal, and this  approach allows the system to grow incrementally rather than require a priori agreement among providers and miners.</p>
-
+				<p> In the current design, providers themselves maintain the blockchain. The rationale for this is that providers are already trusted keepers of medical data.  Extending this trust to make them also maintain the ledger of permission contracts is therefore reasonable. In addition, this closed group can form a consensus in an efficient manner, without the cost of mining. Providers use “proof of authority” to append blocks; any provider can  do so.  Providers also determine who is in their group. </p>
+				
 				<h3> Do we welcome external developers? </h3>
-				<p>Currently, the group are working on bridging from a previous iteration of the Ethereum blockchain to a more up-to-date chain, considering revisions to the architecture as we do so. The overarching aim of Medrec — to provide secure, transparent and scalable access to medical records — remains the same, and we will open the source code once we have developed a working prototype of Medrec 2.0. More information about the implementation of this version can be found in the technical documentation.  </p>
+				<p>Currently, MedRec2.0 is implemented and tested on a database provided by Beth Israel Deaconess Medical Center.  The code is open source and is hosted here.  We are working with a newly-formed Healthcare Information Technology Center, under the direction of John Halamka at BIDMC to develop and build a deployed network.  </p>
 
 
 				<h3> Who supports this project? </h3>
